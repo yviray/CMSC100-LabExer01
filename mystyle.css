@@ -25,14 +25,6 @@ label{
 	list-style: none;
 }
 
-textarea{
-	rows: 7;
-	cols: 60;
-	display: block;
-	border: none;
-	margin: 20px auto;	
-	
-}
 
 input{
 	display: block;
