@@ -33,7 +33,7 @@ textarea{
 	
 }
 
-input[type="text"]:disabled{
+input{
 	display: block;
 	border: none;
 	margin: 20px auto;
