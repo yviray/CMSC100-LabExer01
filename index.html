@@ -1,40 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" href="mystyle.css">
-</head>
-<body>
-	<form>
-			<h1>About Me</h1>
-			<section id="LabExer01">
-				<p>
+	<head>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+	
+	<style type="text/css">
+		body {margin:0;}
+</style>
+
+	</head>
+
+<body style="background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tumblr.com%2Ftagged%2Faesthetic%2Bwallpaper&psig=AOvVaw3iRw_7Q45_vd_LQvVWqZfO&ust=1614852116274000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjau43vk-8CFQAAAAAdAAAAABAD); background-repeat: no-repeat; background-size: 100%; background-attachment: fixed; overflow: scroll;">
+
+
+<div class="logo">
+	<img src="Images/logo.png" alt="Logo image." width="150px" height="150px">
+</div>
+
+<div class="name">
+  <p> <strong> CMSC 100 Lab Exer 01</strong></p>
+</div>
+
+<div class="navbar" id="navbar">
+  	<a  style="margin-left: 200px"	
+  				href="HOME.html">				        Slambook										 </a>
+</div>
+
+<div style="position: fixed; z-index: -3; width: 100%; position: fixed;" >
+  <img src="Images/BrickWall.png" alt="wall" width="100%" height="118px" ">
+</div>
+
+<div class="title">
+	<p><strong> Ysabelle Viray </strong> </p>
+</div>
+
+<div style="  position: fixed; left: 520px; top: 200px;">
+  <img src="Images/pizza-header.jpg" alt="stickynote." width="100%" height="365px">
+</div>
+
+
+<div class="form">
+<form action="error.html">	
+	<br>
+	<fieldset>
+		<legend style="font-family: Berlin Sans FB;"> About Me </legend>
 					<label for="name">Name:</label>
-          <input type="text" id="name" value="Ysabelle Bianca Viray" /disabled>
-				</p>
-				<p>
+					<input type="text" id="name" value="Ysabelle Bianca Viray" /disabled>
+					<br><br>
 					<label for="nickname">Nickname:</label>
 					<input type="text" id="nickname" value="Ysa" /disabled>
-				</p>
-				<p>
-					<label for="CMSC Subject">Favorite CMSC Subject:</label>
-					<textarea style="overflow: hidden" rows="7" cols="60" name="favCMSC" form="LabExer01" id="CMSC Subject" /disabled>
-                                        CMSC 51: It is my favorite CMSC Subject because it is challenging but I enjoyed it the most compared to coding.</textarea>
-				</p>
-				<p>
-					<label for="GE Subject">Favorite GE Subject:</label>
-					<textarea style="overflow: hidden"  rows="8" cols="60" name="favGE" form="LabExer01" id="GE Subject" /disabled>
-                                        MATH 10: It is my favorite GE Subject because it is not really about numbers. I learned to appreciate math because of it.</textarea>
-				</p>        
-				<p>
-					<label for="Programming Language">Favorite Programming Language:</label>
-					<textarea style="overflow: hidden" rows="6" cols="60" name="favPL" form="LabExer01" id="Programming Language" /disabled>
-                                        PYTHON: It is my favorite Programming Language because it is the easiest and simpliest one.</textarea>
-				</p>
-				<p>
+					<br><br>
 					<label for="Favorite Food">Favorite Food:</label>
 					<input type="text" id="FF" value="Pizza" /disabled>
-				</p>
-			</section>
-	</form>
-</body>
-</html>
+				</fieldset>
+				<br>
+	<fieldset>
+		<legend style="font-family: Berlin Sans FB;"> Academic Preferences </legend>
+					<label for="CMSC Subject">Favorite CMSC Subject:</label>
+					<textarea style="overflow: hidden" rows="7" cols="60" name="favCMSC" form="LabExer01" id="CMSC Subject" /disabled>
+                    CMSC 51: It is my favorite CMSC Subject because it is challenging but I enjoyed it the most compared to coding.</textarea>
+					<br><br>
+					<label for="GE Subject">Favorite GE Subject:</label>
+					<textarea style="overflow: hidden"  rows="8" cols="60" name="favGE" form="LabExer01" id="GE Subject" /disabled>
+                    MATH 10: It is my favorite GE Subject because it is not really about numbers. I learned to appreciate math because of it.</textarea>
+					<br><br>
+					<label for="Programming Language">Favorite Programming Language:</label>
+					<textarea style="overflow: hidden" rows="6" cols="60" name="favPL" form="LabExer01" id="Programming Language" /disabled>
+                    PYTHON: It is my favorite Programming Language because it is the easiest and simpliest one.</textarea>
+				</fieldset>
+				<br>
+				<fieldset>
+		<legend style="font-family: Aharoni;"> Delivery Details </legend>
+					<label> Delivery Date: <input type="date" name="dDate" required></label>
+					<br><br>
+					<label> Delivery Time: <input type="time" name="dTime" required></label>
+					<br><br>
+					<label> Delivery Address: <br> <textarea cols="50" rows="10" name="Address"></textarea></label>
+				</fieldset>
+				<br>
+				<p><button type= "reset" style = "margin-right: 5px">Reset</button>
+					<button type= "submit order">Submit Order</button></p>
+</form>
+</div>
