@@ -28,13 +28,13 @@ label{
 input{
 	display: block;
 	border: none;
-	margin: 20px auto;
+	margin: 40px auto;
 	width: 250px;
 	background-color: #eaeaea;
 	padding: 15px 0;
 	text-align: center;
-	font-size: 18px;
-	border-radius: 4px;
+	font-size: 15px;
+	border-radius: 8px;
 }
 
 
