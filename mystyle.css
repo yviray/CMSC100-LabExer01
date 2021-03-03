@@ -4,11 +4,11 @@ body{
 }
 form{
 	background-color: thistle;
-	width: 480px;
+	width: 550px;
 	padding: 40px 10px 20px 10px;
 	margin: 0 auto;
 	border-radius: 4px;
-  text-align: center;
+       text-align: center;
 }
 label{
   color: Indigo;
@@ -29,7 +29,7 @@ input{
 	display: block;
 	border: none;
 	margin: 20px auto;
-	width: 280px;
+	width: 450px;
 	background-color: #eaeaea;
 	padding: 15px 0;
 	text-align: center;
