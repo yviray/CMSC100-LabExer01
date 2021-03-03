@@ -1,9 +1,9 @@
 body{
   font-family: Georgia;
-  background-color: Gainsboro;
+  background-color: MistyRose;
 }
 form{
-	background-color: DimGrey;
+	background-color: RosyBrown;
 	width: 550px;
 	padding: 40px 10px 20px 10px;
 	margin: 0 auto;
@@ -11,7 +11,7 @@ form{
        text-align: center;
 }
 label{
-  color: Black;
+  color: White;
  
 }
 #LabExer01 fieldset{
