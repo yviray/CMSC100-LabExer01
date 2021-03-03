@@ -122,9 +122,9 @@ textarea{
 	background-image: 	url(Images/side.png); 
 	background-size: 	100%,100%;
 	background-repeat: 	no-repeat;
-	background-color: #778899;
+	background-color: LightSlateGrey;
 	border-style: 		solid;
-	border-color: 		#F5F5F5;
+	border-color: 		WhiteSmoke;
 	border-width: 		5px;
 	overflow: 			default;
 	position: 			absolute;
