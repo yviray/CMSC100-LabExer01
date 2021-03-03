@@ -27,33 +27,7 @@
 	font-family: 		AR ESSENCE;
 	letter-spacing: 	3px;
 }	
-.name p:hover{
-	-webkit-animation: glow 1s ease-in-out infinite alternate;
-  	-moz-animation: glow 1s ease-in-out infinite alternate;
-  	animation: glow 1s ease-in-out infinite alternate;
-}
-@-webkit-keyframes glow {
-  from {
-     text-shadow: 
-     0 0 10px #fff, 
-     0 0 20px #fff, 
-     0 0 30px white, 
-     0 0 40px white, 
-     0 0 50px white, 
-     0 0 60px white, 
-     0 0 70px white;
-  }
-  to {
-    text-shadow: 
-    0 0 20px #fff, 
-    0 0 30px #98E1F1, 
-    0 0 40px #98E1F1, 
-    0 0 50px #98E1F1, 
-    0 0 60px #98E1F1, 
-    0 0 70px #98E1F1, 
-    0 0 80px #98E1F1;
-	}
-}
+
 
 .logo {
 	position: 	fixed;
@@ -100,140 +74,6 @@
 	color: white; 
 }
 
-.botbar {
-	overflow: hidden;
-	background-image: linear-gradient(#333,#10122A);
-	position: fixed;
-	bottom: 0;
-	height: 30px;
-	width: 100%;
-}
-.botbar p {
-	float: 				center;
-	display: 			block;
-	color: 				white;
-	text-align: 		center;
-	padding: 			none;
-	text-decoration: 	none;
-	font-size: 			9px;
-	font-family: 		Arial;
-	letter-spacing: 3px;
-}
-
-.pizza{
-	position: 			absolute; 
-	left: 				200px; 
-	top: 				125px;
-	height:				250px;
-	width: 				600px;
-	background-image:  	url("Images/bg2.jpg");
-	background-repeat: 	no-repeat;
-	border-style: 		solid;
-	border-color: 		gray;
-	border-width: 		2px;
-	z-index: 			-4;
-	overflow: 			auto;
-}
-
-.imground {
-  overflow: hidden;
-  border-radius: 50%;
-}
-.imground img{
-  overflow: hidden;
-  float: 			left;
-  position: 		absolute;
-  border-radius: 	50%;
-  border-style: 	dotted;
-  border-width: 	auto;
-  border-color:		#5FB8E8;
-  margin-left:	 	20px;
-  margin-top: 		15px;
-  z-index: 			2;
-}
-
-.imground img:hover{
-	overflow: hidden;
-	height:				170px;
-	width: 				170px;
-	-webkit-animation: gloww 1s ease-in-out infinite alternate;
-  	-moz-animation: gloww 1s ease-in-out infinite alternate;
-  	animation: gloww 1s ease-in-out infinite alternate;
-
-}
-@-webkit-keyframes gloww {
-  from {
-     box-shadow: : 
-     0 0 10px #fff, 
-     0 0 20px #fff, 
-     0 0 20px white, 
-     0 0 20px white, 
-     0 0 20px white, 
-     0 0 20px white, 
-     0 0 20px white;
-  }
-  to {
-    box-shadow: 
-    0 0 10px #fff, 
-    0 0 20px white, 
-    0 0 20px white, 
-    0 0 20px white, 
-    0 0 20px white, 
-    0 0 20px white, 
-    0 0 20px white;
-	}
-}
-
-.choose {
-	position: absolute;
-	margin-top: 140px;
-	margin-left: 20px;
-	text-align: center; 
-	height: 70px;
-	z-index: -4;
-}
-.choose p, .side p, .product p, .product a {
-	font-family:	 	Berlin Sans FB;
-	font-size:			50px;
-	bottom: 			0;
-	float: 				left;
-	color: 				white;
-	text-align: 		center;
-	padding: 			none;
-	text-decoration: 	none;
-	letter-spacing: 	3px;
-	text-shadow:  		0 0 100px #98E1F1;
-}
-.side {
-	background-image: 	url(Images/side.png); 
-	background-size: 	100%,100%;
-	background-repeat: 	no-repeat;
-	border-style: 		solid;
-	border-color: 		gray;
-	border-width: 		2px;
-	overflow: 			default;
-	position: 			absolute;
-	left: 				820px;
-	top: 				125px;
-	right:				20px;
-	margin-top:			0px;
-	width: 				510px;
-	height:				180px;
-	z-index: 			-4;
-}
-.side:hover p{
-	animation: 					shake 0.5s;
-	animation-iteration-count: 	1s;
-}
-
-.side:hover  img{
-	overflow: hidden;
-	height:				200px;
-	width: 				600px;
-	-webkit-animation: gloww 1s ease-in-out infinite alternate;
-  	-moz-animation: gloww 1s ease-in-out infinite alternate;
-  	animation: gloww 1s ease-in-out infinite alternate;
-}
 .title {
 	background-image: 	url(Images/side.png); 
 	background-size: 	100%,100%;
@@ -270,21 +110,21 @@
 textarea{
 	display: block;
 	border: none;
-	width: 250px;
+	width: 450px;
 	background-color: #eaeaea;
-	padding: 15px;
-	text-align: center;
+	padding: 10px;
+	text-align: left;
 	font-size: 15px;
-	border-radius: 6px;
-  font-family: 		Arial;
+	border-radius: 5px;
+   font-family: 		Arial;
 }
 .form {
 	background-image: 	url(Images/side.png); 
 	background-size: 	100%,100%;
 	background-repeat: 	no-repeat;
-	background-color: #61463D;
+	background-color: #778899;
 	border-style: 		solid;
-	border-color: 		#F3430B;
+	border-color: 		#F5F5F5;
 	border-width: 		5px;
 	overflow: 			default;
 	position: 			absolute;
@@ -294,10 +134,16 @@ textarea{
 	margin-top:			0px;
 	margin-bottom: 		50px;
 	width: 				500px;
-	height:				1250px;
+	height:				525px;
 	z-index: 			-5;
 }
 .form fieldset{
 	color: 				white;
+}
+
+.form input{
+	color: black;
+	font-family: 		Arial;
+	font-size: 15px;
 }
 
