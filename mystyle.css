@@ -26,7 +26,8 @@ label{
 }
 
 textarea{
-	overflow: hidden;
+	rows: 7;
+	cols: 60;
 	display: block;
 	border: none;
 	margin: 20px auto;	
