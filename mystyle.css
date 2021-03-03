@@ -107,7 +107,7 @@
 	margin-top:			-5px;
 
 }
-.form textarea{
+textarea{
 	display: block;
 	border: none;
 	width: 450px;
@@ -122,9 +122,9 @@
 	background-image: 	url(Images/side.png); 
 	background-size: 	100%,100%;
 	background-repeat: 	no-repeat;
-	background-color: LightSlateGrey;
+	background-color: #778899;
 	border-style: 		solid;
-	border-color: 		WhiteSmoke;
+	border-color: 		#F5F5F5;
 	border-width: 		5px;
 	overflow: 			default;
 	position: 			absolute;
