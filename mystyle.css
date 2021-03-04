@@ -4,7 +4,7 @@
   height: 1200px;
 }
 
-.name{
+.name{/*determines the position and size of my name on top*/
 	overflow: 				auto;
 	background-image: 		none;
 	position: 				fixed;
@@ -15,7 +15,7 @@
 	width: 					100%;
 	z-index: 				-2;
 }
-.name p{
+.name p{ /*Determines the font size, color, alignment, font style of my name*/
 	margin-left: 		80px;
 	float: 				left;
 	display: 			inline-block;
@@ -29,15 +29,15 @@
 }	
 
 
-.logo {
+.logo { /*determines the position of background images on top*/
 	position: 	fixed;
 	left: 		25px;
 }
-.logo img:hover {
+.logo img:hover {/*creates a shake effect on moon when cursor is there*/
 	animation: 					shake 0.5s;
 	animation-iteration-count: 	1s;
 }
-@keyframes shake {
+@keyframes shake {/*additional code for the shake effect*/
 	0% { transform: translate(2px, 2px) rotate(0deg); }
 	10% { transform: translate(-1px, -2px) rotate(-1deg); }
 	20% { transform: translate(-3px, 0px) rotate(1deg); }
@@ -50,7 +50,7 @@
 	90% { transform: translate(3px, 2px) rotate(0deg); }
 	100% { transform: translate(2px, -2px) rotate(-1deg); }
 }
-.navbar {
+.navbar {/*puts a navigation bar wherein the subject and section is placed*/
 	overflow: 			hidden;
 	background-image: linear-gradient(#333,#10122A);
 	position: 			fixed;
@@ -59,7 +59,7 @@
 	width: 				100%;
 	z-index: 			-1;
 }
-.navbar a {
+.navbar a {/*create a more appealing design on section*/
 	float: 				left;
 	display: 			block;
 	color: 				#f2f2f2;
@@ -69,7 +69,7 @@
 	font-size: 			20px;
 	font-family: 		Aharoni;
 }
-.navbar a:hover{
+.navbar a:hover{ /*creates an effect when cursos is in the section part*/
 	background: #039FAC;
 	color: white; 
 }
@@ -93,7 +93,7 @@
 	z-index: 			-4;
 	position: fixed;
 }
-.title p{
+.title p{ /*code for the slambook title in the webpage*/
 	font-family:	 	Arial Rounded MT Bold;
 	font-size:			50px;
 	bottom: 			0;
@@ -107,7 +107,7 @@
 	margin-top:			-5px;
 
 }
-textarea{
+textarea{ /*sets the size and alignment of text in the text area including it's size and background color*/
 	display: block;
 	border: none;
 	width: 450px;
@@ -118,7 +118,7 @@ textarea{
 	border-radius: 5px;
    font-family: 		Arial;
 }
-.form {
+.form { /*creates the design and size of the form*/
 	background-image: 	url(Images/side.png); 
 	background-size: 	100%,100%;
 	background-repeat: 	no-repeat;
@@ -137,11 +137,11 @@ textarea{
 	height:				525px;
 	z-index: 			-5;
 }
-.form fieldset{
+.form fieldset{ /*sets the color of fieldset to white*/
 	color: 				white;
 }
 
-.form input{
+.form input{/*sets the color of inputs to black*/
 	color: black;
 	font-family: 		Arial;
 	font-size: 15px;
